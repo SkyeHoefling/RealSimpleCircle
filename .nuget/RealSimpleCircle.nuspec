@@ -11,7 +11,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>An easy control for creating circle's in a Xamarin.Forms project.</description>
     <summary>Super Simple Circle Control for Xamarin.Forms (iOS and Android)</summary>
-    <releaseNotes>For changelog go to: https://github.com/ahoefling/SuperSimpleCircle/blob/master/CHANGELOG.md</releaseNotes>
+    <releaseNotes>For changelog go to: https://github.com/ahoefling/RealSimpleCircle/blob/master/CHANGELOG.md</releaseNotes>
     <tags>Xamarin, Circle, Control, iOS, android, Xamarin.forms</tags>
     <dependencies>
       <group targetFramework="MonoAndroid10">
@@ -24,12 +24,12 @@
   </metadata>
   <files>
     <!-- shared -->
-    <file src="..\src\SuperSimpleCircle.Abstractions\bin\Release\netstandard1.4\SuperSimpleCircle.Abstractions.*" target="lib\netstandard1.4" />    
+    <file src="..\src\RealSimpleCircle.Abstractions\bin\Release\netstandard1.4\RealSimpleCircle.Abstractions.*" target="lib\netstandard1.4" />    
 
     <!-- iOS -->
-    <file src="..\src\SuperSimpleCircle.iOS\bin\iPhone\Release\SuperSimpleCircle.*" target="lib\Xamarin.iOS10" />    
+    <file src="..\src\RealSimpleCircle.iOS\bin\iPhone\Release\RealSimpleCircle.*" target="lib\Xamarin.iOS10" />    
 
     <!-- android -->
-    <file src="..\src\SuperSimpleCircle.Android\bin\Release\SuperSimpleCircle.*" target="lib\MonoAndroid10" />    
+    <file src="..\src\RealSimpleCircle.Android\bin\Release\RealSimpleCircle.*" target="lib\MonoAndroid10" />    
   </files>
 </package>
