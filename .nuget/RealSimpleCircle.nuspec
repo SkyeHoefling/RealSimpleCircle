@@ -27,7 +27,7 @@
     <file src="..\src\RealSimpleCircle.Abstractions\bin\Release\netstandard1.4\RealSimpleCircle.Abstractions.*" target="lib\netstandard1.4" />    
 
     <!-- iOS -->
-    <file src="..\src\RealSimpleCircle.iOS\bin\iPhone\Release\RealSimpleCircle.*" target="lib\Xamarin.iOS10" />    
+    <file src="..\src\RealSimpleCircle.iOS\bin\Release\RealSimpleCircle.*" target="lib\Xamarin.iOS10" />    
 
     <!-- android -->
     <file src="..\src\RealSimpleCircle.Android\bin\Release\RealSimpleCircle.*" target="lib\MonoAndroid10" />    
