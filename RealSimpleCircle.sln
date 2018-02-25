@@ -1,13 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2024
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealSimpleCircle.Abstractions", "src\RealSimpleCircle.Abstractions\RealSimpleCircle.Abstractions.csproj", "{76FC3F6A-CB7E-4D9A-AED2-A6EBF6827BD9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealSimpleCircle.iOS", "src\RealSimpleCircle.iOS\RealSimpleCircle.iOS.csproj", "{8E602F90-49C3-4AD2-8ABA-AA1F693850F1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealSimpleCircle.Android", "src\RealSimpleCircle.Android\RealSimpleCircle.Android.csproj", "{354B5BBB-500D-4ABC-A0AA-F156584592AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{295EA96E-4F1E-4C39-8823-EC50194816D7}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.config = .nuget\NuGet.config
+		.nuget\README.md = .nuget\README.md
+		.nuget\RealSimpleCircle.nuspec = .nuget\RealSimpleCircle.nuspec
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
