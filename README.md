@@ -18,6 +18,7 @@ RealSimpleCircle is available for use in the following supported platforms.
 |------------------|-----------|-------------|
 | Xamarin.Android  | Yes       | API 23 +    |
 | Xamarin.iOS      | Yes       | iOS 10 +    |
+| NetStandard	   | Yes       | 1.0 +		 |
 
 
 ## Usage ##
