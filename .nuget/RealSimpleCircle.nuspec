@@ -24,7 +24,7 @@
   </metadata>
   <files>
     <!-- shared -->
-    <file src="..\src\RealSimpleCircle.Abstractions\bin\Release\netstandard1.4\RealSimpleCircle.Abstractions.*" target="lib\netstandard1.4" />    
+    <file src="..\src\RealSimpleCircle.Abstractions\bin\Release\netstandard1.0\RealSimpleCircle.Abstractions.*" target="lib\netstandard1.0" />    
 
     <!-- iOS -->
     <file src="..\src\RealSimpleCircle.iOS\bin\Release\RealSimpleCircle.*" target="lib\Xamarin.iOS10" />    
