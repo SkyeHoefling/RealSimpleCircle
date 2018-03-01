@@ -44,7 +44,7 @@ Add the control:
 ```xml
 <controls:Circle FillColor="Black"
                  StrokeColor="Red"
-				 Active="True" />
+                 Active="True" />
 ```
 
 ## Bindable Properties
