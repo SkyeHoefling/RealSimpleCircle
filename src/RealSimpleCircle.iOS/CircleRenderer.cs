@@ -11,6 +11,11 @@ namespace RealSimpleCircle.iOS
 {
     public class CircleRenderer : ViewRenderer<Circle, UIView>
     {
+        public static void Init()
+        {
+            var dummy = new CircleRenderer();
+        }
+
         protected override void OnElementChanged(ElementChangedEventArgs<Circle> e)
         {
             base.OnElementChanged(e);

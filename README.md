@@ -23,7 +23,16 @@ RealSimpleCircle is available for use in the following supported platforms.
 
 ## Usage ##
 
-### XAML: ####
+### C# ###
+#### iOS and Android####
+Initialize the renderer in the AppDelegate (iOS) and MainActivity (Android)
+
+```c#
+Xamarin.Forms.Init();
+CircleRenderer.Init();
+```
+
+### XAML: ###
 Add the namespace in the xmlns:
 
 ```xml
@@ -40,11 +49,11 @@ Add the control:
 
 ## Bindable Properties
 
-| Property    | Description                                     | Default Value              |
-|-------------|-------------------------------------------------|----------------------------|
-| FillColor   | Gets or Sets the fill color for the circle.     | `Color.Black`              |
-| StrokeColor | Gets or Sets the circle border color            | `Color.Black`              |
-| Active      | Gets or Sets if the circle is active            | `False`                    |
+| Property    | Description                                                        | Default Value              |
+|-------------|--------------------------------------------------------------------|----------------------------|
+| FillColor   | Gets or Sets the fill color for the circle.                        | `Color.Black`              |
+| StrokeColor | Gets or Sets the circle border color                               | `Color.Black`              |
+| Active      | Gets or Sets if the circle fill color is visible or not            | `False`                    |
 
 ## Created By: [@Andrew_Hoefling](https://twitter.com/andrew_hoefling)
 

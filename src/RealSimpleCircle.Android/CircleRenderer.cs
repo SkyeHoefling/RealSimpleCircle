@@ -1,9 +1,9 @@
 ﻿using Android.Content;
 using Android.Graphics;
-using Xamarin.Forms;
 using RealSimpleCircle.Abstractions;
-using Xamarin.Forms.Platform.Android;
 using RealSimpleCircle.Android;
+using Xamarin.Forms;
+using Xamarin.Forms.Platform.Android;
 
 [assembly: ExportRenderer(typeof(Circle), typeof(CircleRenderer))]
 namespace RealSimpleCircle.Android
@@ -13,6 +13,11 @@ namespace RealSimpleCircle.Android
         public CircleRenderer(Context context) : base(context)
         {
             SetWillNotDraw(false);
+        }
+
+        public static void Init()
+        {
+            var dummy = new CircleRenderer(global::Android.App.Application.Context);
         }
 
         protected override void OnElementChanged(ElementChangedEventArgs<Circle> e)
